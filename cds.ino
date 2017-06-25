@@ -6,6 +6,10 @@ const int LOOP_DELAY = 200; // ループ周期(ms)
 
 void setup() {
   pinMode(LED_PORT, OUTPUT);  // LEDポートを出力ポートにセット
+
+  if(SERIAL_OUTPUT){
+    Serial.begin(9600);
+  }
 }
 
 void loop() {
