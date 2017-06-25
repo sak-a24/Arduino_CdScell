@@ -1,17 +1,17 @@
 # Settings
 
-// CdS cell sensor input port
+・CdS cell sensor input port
 
-const int CDS_PORT = A0;
+  const int CDS_PORT = A0;
 
-// LED output port
+・LED output port
 
-const int LED_PORT = 9;
+  const int LED_PORT = 9;
 
-// serial output for brightness
+・serial output for brightness
 
-const boolean SERIAL_OUTPUT = true;
+  const boolean SERIAL_OUTPUT = true;
 
-// loop delay
+・loop delay
 
-const int LOOP_DELAY = 200;
+  const int LOOP_DELAY = 200;
